@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Sims Roofing | Architectural Integrity Guaranteed</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-tint": "#465f88",
+            "outline": "#74777f",
+            "surface-dim": "#d9dadb",
+            "secondary": "#4c616c",
+            "primary-container": "#1b365d",
+            "on-primary-fixed-variant": "#2e476f",
+            "on-tertiary-container": "#f77d03",
+            "on-error": "#ffffff",
+            "on-tertiary": "#ffffff",
+            "error-container": "#ffdad6",
+            "background": "#f8f9fa",
+            "on-secondary": "#ffffff",
+            "secondary-fixed-dim": "#b4cad6",
+            "secondary-fixed": "#cfe6f2",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-high": "#e7e8e9",
+            "error": "#ba1a1a",
+            "surface-container-low": "#f3f4f5",
+            "tertiary-container": "#582900",
+            "primary-fixed": "#d6e3ff",
+            "primary": "#002046",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#526772",
+            "outline-variant": "#c4c6cf",
+            "surface-bright": "#f8f9fa",
+            "inverse-primary": "#aec7f7",
+            "primary-fixed-dim": "#aec7f7",
+            "tertiary-fixed-dim": "#ffb786",
+            "inverse-on-surface": "#f0f1f2",
+            "tertiary-fixed": "#ffdcc6",
+            "surface": "#f8f9fa",
+            "tertiary": "#381800",
+            "on-secondary-fixed": "#071e27",
+            "on-background": "#191c1d",
+            "on-tertiary-fixed": "#311300",
+            "on-primary-fixed": "#001b3d",
+            "on-surface-variant": "#44474e",
+            "on-error-container": "#93000a",
+            "on-secondary-fixed-variant": "#354a53",
+            "surface-container-highest": "#e1e3e4",
+            "surface-container": "#edeeef",
+            "secondary-container": "#cfe6f2",
+            "on-surface": "#191c1d",
+            "on-primary-container": "#87a0cd",
+            "surface-variant": "#e1e3e4",
+            "inverse-surface": "#2e3132",
+            "on-tertiary-fixed-variant": "#723600"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          fontFamily: {
+            "headline": ["Work Sans"],
+            "body": ["Manrope"],
+            "label": ["Manrope"]
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .editorial-shadow {
+      box-shadow: 0 12px 40px rgba(25, 28, 29, 0.06);
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #002046 0%, #1b365d 100%);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface font-body leading-relaxed">
+
+  <!-- Top Nav Bar -->
+  <nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
+    <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+      <div class="text-2xl font-black tracking-tighter text-[#002046] dark:text-slate-100 font-headline">
+        Sims Roofing
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a class="text-[#f77d03] font-bold border-b-2 border-[#f77d03] pb-1 font-body transition-colors duration-300" href="#services">Services</a>
+        <a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#f77d03] transition-colors duration-300 font-body" href="#about">About</a>
+        <a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#f77d03] transition-colors duration-300 font-body" href="#contact">Contact</a>
+      </div>
+      <button class="bg-primary text-on-primary px-6 py-2 font-bold scale-95 active:scale-100 transition-transform rounded-lg">
+        Get a Quote
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative min-h-screen flex items-center pt-20 overflow-hidden hero-gradient">
+    <div class="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 z-10">
+        <span class="inline-block px-4 py-1 mb-6 text-xs font-bold tracking-[0.2em] text-on-primary-container bg-primary-container/30 uppercase border-l-2 border-on-tertiary-container">
+          Architectural Integrity
+        </span>
+        <h1 class="text-5xl md:text-7xl font-black text-white font-headline leading-tight tracking-tighter mb-8">
+          Built to Outlast <br/>The Elements.
+        </h1>
+        <p class="text-xl text-on-primary-container max-w-xl mb-10 leading-relaxed">
+          Precision-engineered roofing systems for residential and commercial landmarks. We combine structural mastery with aesthetic perfection.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a class="bg-primary-fixed text-on-primary-fixed px-8 py-4 font-bold text-center rounded-lg shadow-xl hover:shadow-2xl transition-all" href="#contact">
+            Schedule Consultation
+          </a>
+          <a class="border border-outline-variant/30 text-white px-8 py-4 font-bold text-center rounded-lg hover:bg-white/10 transition-all flex items-center justify-center gap-2" href="#services">
+            Our Expertise <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-5 relative h-[600px] hidden lg:block">
+        <div class="absolute inset-0 bg-surface-container-low rounded-xl overflow-hidden editorial-shadow rotate-2 scale-105">
+          <img
+            class="w-full h-full object-cover grayscale-[0.2] contrast-125"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_pkktckccAPg-9GiGl8UlB3Q8J0qGtpkejQcVC94ymbY7pUcwAvaJzJ96Ypwh5-5nqlENdrrYRdlMzx3v6dkx0LWqhbC4ARWvPJmx72Rx1iDkqA6H8MKrehw9CQbt-XBQ0xg2KUQQhGTRWcYvNq7kdYFKilviz_qJ2UI2eH2vqSrK5_fX3-r_gNhbNrs3mD-LB8DEEGbjG7FNCNML-Rp9xIXT_0EW6SSFCAfl2fi61U9i6qNTEVS0JODaAaN3zuZcbdsP0gx0hVZ3"
+            alt="High-end modern architectural home with a sleek slate roof and large glass windows at dusk with warm interior lighting"
+          />
+        </div>
+        <div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-8 editorial-shadow rounded-lg max-w-xs">
+          <div class="text-on-tertiary-container font-headline text-4xl font-black mb-1">25+</div>
+          <div class="text-secondary font-label text-sm uppercase tracking-widest font-bold">Years of Excellence</div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute right-0 top-0 w-1/3 h-full bg-primary-container/10 -skew-x-12 translate-x-1/2 pointer-events-none"></div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-32 bg-surface" id="services">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="mb-20">
+        <h2 class="text-label-md uppercase tracking-[0.2em] text-on-tertiary-container font-bold mb-4">Core Capabilities</h2>
+        <h3 class="text-4xl md:text-5xl font-black font-headline text-primary">Specialized Solutions</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Residential -->
+        <div class="group bg-surface-container-low p-10 rounded-lg hover:bg-surface-container-highest transition-all duration-300 transform hover:-translate-y-2">
+          <div class="mb-8 inline-flex p-4 rounded-lg bg-secondary-container text-on-secondary-container">
+            <span class="material-symbols-outlined text-3xl">home_work</span>
+          </div>
+          <h4 class="text-2xl font-bold font-headline mb-4 text-primary">Residential</h4>
+          <p class="text-on-surface-variant mb-8">Custom slate, tile, and asphalt solutions designed for longevity and curb appeal.</p>
+          <a class="text-on-tertiary-container font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+            Explore <span class="material-symbols-outlined">chevron_right</span>
+          </a>
+        </div>
+        <!-- Commercial -->
+        <div class="group bg-surface-container-low p-10 rounded-lg hover:bg-surface-container-highest transition-all duration-300 transform hover:-translate-y-2">
+          <div class="mb-8 inline-flex p-4 rounded-lg bg-secondary-container text-on-secondary-container">
+            <span class="material-symbols-outlined text-3xl">domain</span>
+          </div>
+          <h4 class="text-2xl font-bold font-headline mb-4 text-primary">Commercial</h4>
+          <p class="text-on-surface-variant mb-8">Heavy-duty TPO, EPDM, and metal roofing for large-scale industrial and retail structures.</p>
+          <a class="text-on-tertiary-container font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+            Explore <span class="material-symbols-outlined">chevron_right</span>
+          </a>
+        </div>
+        <!-- Emergency -->
+        <div class="group bg-surface-container-low p-10 rounded-lg hover:bg-surface-container-highest transition-all duration-300 transform hover:-translate-y-2">
+          <div class="mb-8 inline-flex p-4 rounded-lg bg-secondary-container text-on-secondary-container">
+            <span class="material-symbols-outlined text-3xl" style='font-variation-settings: "FILL" 1;'>warning</span>
+          </div>
+          <h4 class="text-2xl font-bold font-headline mb-4 text-primary">Emergency</h4>
+          <p class="text-on-surface-variant mb-8">Rapid response storm damage assessment and critical repairs available 24/7.</p>
+          <a class="text-on-tertiary-container font-bold flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+            Explore <span class="material-symbols-outlined">chevron_right</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-32 bg-surface-container-low" id="contact">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 bg-white rounded-2xl overflow-hidden editorial-shadow">
+        <!-- Left Panel -->
+        <div class="lg:col-span-5 bg-primary p-12 text-white flex flex-col justify-between">
+          <div>
+            <h2 class="text-label-md uppercase tracking-[0.2em] text-on-tertiary-container font-bold mb-6">Contact</h2>
+            <h3 class="text-4xl font-black font-headline mb-8">Secure Your Infrastructure</h3>
+            <p class="text-on-primary-container text-lg mb-12">Available for nationwide consultation. Let's discuss your architectural vision and structural requirements.</p>
+            <div class="space-y-8">
+              <div class="flex items-center gap-4">
+                <div class="bg-primary-container p-3 rounded-lg text-on-primary-container">
+                  <span class="material-symbols-outlined">call</span>
+                </div>
+                <div>
+                  <div class="text-xs uppercase tracking-widest text-on-primary-container">Call Direct</div>
+                  <div class="text-xl font-bold">225-200-9598</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="bg-primary-container p-3 rounded-lg text-on-primary-container">
+                  <span class="material-symbols-outlined">mail</span>
+                </div>
+                <div>
+                  <div class="text-xs uppercase tracking-widest text-on-primary-container">Email Enquiries</div>
+                  <div class="text-xl font-bold">projects@simsroofing.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-12 border-t border-primary-container">
+            <div class="text-xs uppercase tracking-[0.2em] text-on-tertiary-container mb-4">HEADQUARTERS</div>
+            <div class="font-bold">1200 Industrial Way, Suite 400<br/>Denver, Colorado 80202</div>
+          </div>
+        </div>
+        <!-- Right Panel: Form -->
+        <div class="lg:col-span-7 p-12">
+          <form class="space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="space-y-2">
+                <label class="text-label-md uppercase tracking-widest font-bold text-secondary">Full Name</label>
+                <input class="w-full p-4 bg-surface-container-highest border-none focus:ring-2 focus:ring-primary rounded-lg transition-all" placeholder="Johnathan Doe" type="text"/>
+              </div>
+              <div class="space-y-2">
+                <label class="text-label-md uppercase tracking-widest font-bold text-secondary">Email Address</label>
+                <input class="w-full p-4 bg-surface-container-highest border-none focus:ring-2 focus:ring-primary rounded-lg transition-all" placeholder="john@example.com" type="email"/>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="space-y-2">
+                <label class="text-label-md uppercase tracking-widest font-bold text-secondary">Project Type</label>
+                <select class="w-full p-4 bg-surface-container-highest border-none focus:ring-2 focus:ring-primary rounded-lg transition-all">
+                  <option>Residential Landmark</option>
+                  <option>Commercial/Industrial</option>
+                  <option>Emergency Repair</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="space-y-2">
+                <label class="text-label-md uppercase tracking-widest font-bold text-secondary">Timeline</label>
+                <select class="w-full p-4 bg-surface-container-highest border-none focus:ring-2 focus:ring-primary rounded-lg transition-all">
+                  <option>Urgent (Within 30 Days)</option>
+                  <option>Seasonal (3-6 Months)</option>
+                  <option>Planning Stage</option>
+                </select>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <label class="text-label-md uppercase tracking-widest font-bold text-secondary">Project Scope &amp; Details</label>
+              <textarea class="w-full p-4 bg-surface-container-highest border-none focus:ring-2 focus:ring-primary rounded-lg transition-all" placeholder="Briefly describe the architectural challenge..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-primary text-white py-5 font-black text-xl font-headline rounded-lg hover:shadow-2xl transition-all relative overflow-hidden group">
+              <span class="relative z-10">Request Consultation</span>
+              <div class="absolute inset-0 bg-on-tertiary-container transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="w-full pt-16 pb-8 bg-[#002046] dark:bg-slate-950 text-white font-body">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-7xl mx-auto">
+      <div>
+        <div class="text-xl font-bold text-white mb-6">Sims Roofing</div>
+        <p class="text-slate-400 text-sm leading-relaxed mb-6">Mastering the intersection of structural engineering and high-end architectural aesthetics since 1998.</p>
+        <div class="flex gap-4">
+          <a class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center hover:bg-on-tertiary-container transition-colors" href="#">
+            <span class="material-symbols-outlined text-sm">share</span>
+          </a>
+          <a class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center hover:bg-on-tertiary-container transition-colors" href="#">
+            <span class="material-symbols-outlined text-sm">location_on</span>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-sm font-bold uppercase tracking-widest text-slate-200 mb-6">Navigation</h4>
+        <ul class="space-y-4">
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#services">Services</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#about">About</a></li>
+          <li><a class="text-[#f77d03] text-sm uppercase tracking-widest" href="#contact">Get Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-sm font-bold uppercase tracking-widest text-slate-200 mb-6">Legal</h4>
+        <ul class="space-y-4">
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Warranty Info</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Licensing</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-sm font-bold uppercase tracking-widest text-slate-200 mb-6">Expertise</h4>
+        <ul class="space-y-4">
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Residential</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Commercial</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Custom Metal</a></li>
+          <li><a class="text-slate-400 hover:text-white transition-all text-sm uppercase tracking-widest" href="#">Sustainable</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-primary-container/30 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-xs text-slate-400 font-['Manrope'] uppercase tracking-widest">
+        &copy; 2024 Sims Roofing. Architectural Integrity Guaranteed.
+      </p>
+      <div class="flex gap-8">
+        <span class="text-[10px] text-slate-500 uppercase tracking-widest">Licensed #BC-99210</span>
+        <span class="text-[10px] text-slate-500 uppercase tracking-widest">Insured &amp; Bonded</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
